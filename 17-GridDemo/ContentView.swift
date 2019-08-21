@@ -9,8 +9,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let dishes = Dish.all()
+    
     var body: some View {
-        Text("Hello World")
+        
+        let chunkedDishes = dishes.chunked(into: 2)
+        
+        return List {
+            
+            ForEach(0..<chunkedDishes.count) {index in
+                
+                HStack(alignment: .center) {
+                    ForEach(chunkedDishes[index]){ dish in
+                        
+                        Image(dish.imageURL)
+                        .resizable()
+                            .frame(width: 190, height: 190)
+                        .shadow(radius: 5)
+                           
+                    }
+                }
+            
+               
+            }
+        }
+
     }
 }
 

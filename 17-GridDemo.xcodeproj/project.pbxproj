@@ -13,6 +13,8 @@
 		C71758C423023A2400E5AC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71758C323023A2400E5AC99 /* Assets.xcassets */; };
 		C71758C723023A2400E5AC99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71758C623023A2400E5AC99 /* Preview Assets.xcassets */; };
 		C71758CA23023A2400E5AC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71758C823023A2400E5AC99 /* LaunchScreen.storyboard */; };
+		C71758D223023F2900E5AC99 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71758D123023F2900E5AC99 /* Dish.swift */; };
+		C71758D42302422900E5AC99 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71758D32302422900E5AC99 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C71758C623023A2400E5AC99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C71758C923023A2400E5AC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71758CB23023A2400E5AC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71758D123023F2900E5AC99 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		C71758D32302422900E5AC99 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C71758C823023A2400E5AC99 /* LaunchScreen.storyboard */,
 				C71758CB23023A2400E5AC99 /* Info.plist */,
 				C71758C523023A2400E5AC99 /* Preview Content */,
+				C71758D123023F2900E5AC99 /* Dish.swift */,
+				C71758D32302422900E5AC99 /* ArrayExtension.swift */,
 			);
 			path = "17-GridDemo";
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71758D42302422900E5AC99 /* ArrayExtension.swift in Sources */,
 				C71758BE23023A2300E5AC99 /* AppDelegate.swift in Sources */,
+				C71758D223023F2900E5AC99 /* Dish.swift in Sources */,
 				C71758C023023A2300E5AC99 /* SceneDelegate.swift in Sources */,
 				C71758C223023A2300E5AC99 /* ContentView.swift in Sources */,
 			);
